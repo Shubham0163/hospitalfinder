@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.1/css/all.css"
+      integrity="sha384-IT8OQ5/IfeLGe8ZMxjj3QQNqT0zhBJSiFCL3uolrGgKRuenIU+mMS94kck/AHZWu"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/desktop/style.css" />
+    <title>Hospital Finder</title>
+  </head>
+  <body>
+    <section id="upperArea">
+      <section id="head">
+        <div class="container">
+          <div class="logo">
+            <img src="./media/google.png" alt="Hospital Finder" />
+          </div>
+          <div class="login">
+            <button id="account">
+              Login or Create Account
+              <span><i class="fas fa-arrow-down"></i></span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section id="menu">
+        <div class="searchCategory">
+          <div class="item">
+            <i class="far fa-hospital"></i>
+            <p>Hospital</p>
+            <div id="line"></div>
+          </div>
+          <div class="item">
+            <i class="fas fa-tint"></i>
+            <p>Blood</p>
+            <div id="line"></div>
+          </div>
+          <div class="item">
+            <i class="fas fa-user-md"></i>
+            <p>Doctor</p>
+            <div id="line"></div>
+          </div>
+          <div class="item">
+            <i class="fas fa-exclamation-triangle"></i>
+            <p>Emergency</p>
+            <div id="line"></div>
+          </div>
+        </div>
+      </section>
+      <main id="operation">
+        <div class="operation">
+          <div class="heading">
+            <p>Search Hospital According To Location...</p>
+          </div>
+          <div class="searchForm">
+            <form>
+              <div class="options">
+                <select name="state" id="">
+                  <option value="-1">State</option>
+                  <option value="Telangana">Telangana</option>
+                  <option value="Chhattisgarh">Chhattisgarh</option>
+                  <option value="Goa">Goa</option>
+                  <option value="Gujarat">Gujarat</option>
+                  <option value="Maharashtra">Maharashtra</option>
+                  <option value="Punjab">Punjab</option>
+                </select>
+                <select name="city" id="">
+                  <option value="-1">City</option>
+                  <option value="Hyderabad">Hyderabad</option>
+                  <option value="Bilaspur">Bilaspur</option>
+                  <option value="Panaji">Panaji</option>
+                  <option value="Ahmedabad">Ahmedabad,</option>
+                  <option value="Jalandhar">Jalandhar</option>
+                </select>
+                <select name="area" id="">
+                  <option value="-1">Area</option>
+                  <option value="Khurdpur">Khurdpur</option>
+                  <option value="Kishangarh	">Khusropur</option>
+                  <option value="Kishangarh">Kishangarh </option>
+                  <option value="Bhagwanpur">Bhagwanpur</option>
+                </select>
+                <select name="Problem" id="">
+                  <option value="-1">Health Problem</option>
+                  <option value="Kishangarh	">Khusropur</option>
+                  <option value="Kishangarh">Kishangarh </option>
+                  <option value="Bhagwanpur">Bhagwanpur</option>
+                </select>
+              </div>
+              <div class="searchButton">
+                <button type="submit" name="search" id="search">Search</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </main>
+    </section>
+    <section id="body">
+      <div class="results">
+        <div class="resultItem">
+          <div class="photo">
+            <img
+              src="./media/hospitalPhoto/hospital.jpg"
+              alt="Hospital Photo"
+            />
+          </div>
+          <div class="details">
+            <div class="info">
+              <p>Name: <span>City Hospital</span></p>
+              <p>
+                Location:
+                <span
+                  >Jalandhar - Delhi G.T. Road, Phagwara, Punjab 144411</span
+                >
+              </p>
+              <p>Phone: <span>+91 5555 5555 55</span></p>
+            </div>
+            <div class="contact">
+              <button id="ambulance">CALL Ambulance</button>
+              <button id="appoinment">Appoinment</button>
+            </div>
+          </div>
+        </div>
+        <div class="resultItem">
+          <div class="photo">
+            <img
+              src="./media/hospitalPhoto/hospital.jpg"
+              alt="Hospital Photo"
+            />
+          </div>
+          <div class="details">
+            <div class="info">
+              <p>Name: <span>City Hospital</span></p>
+              <p>
+                Location:
+                <span
+                  >Jalandhar - Delhi G.T. Road, Phagwara, Punjab 144411</span
+                >
+              </p>
+              <p>Phone: <span>+91 5555 5555 55</span></p>
+            </div>
+            <div class="contact">
+              <button id="ambulance">Book CALL Ambulance</button>
+              <button id="appoinment">Book Appoinment</button>
+            </div>
+          </div>
+        </div>
+        <div class="resultItem">
+          <div class="photo">
+            <img
+              src="./media/hospitalPhoto/hospital.jpg"
+              alt="Hospital Photo"
+            />
+          </div>
+          <div class="details">
+            <div class="info">
+              <p>Name: <span>City Hospital</span></p>
+              <p>
+                Location:
+                <span
+                  >Jalandhar - Delhi G.T. Road, Phagwara, Punjab 144411</span
+                >
+              </p>
+              <p>Phone: <span>+91 5555 5555 55</span></p>
+            </div>
+            <div class="contact">
+              <button id="ambulance">CALL Ambulance</button>
+              <button id="appoinment">Appoinment</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="socialLink">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+      </div>
+      <div class="copyRights">
+        © 2019 HOSPITAL FINDER PVT. LTD.<br />Country India
+      </div>
+    </footer>
+  </body>
+</html>
